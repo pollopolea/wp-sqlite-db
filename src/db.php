@@ -983,7 +983,7 @@ HTML
         {
             //global $required_mysql_version;
             //return $required_mysql_version;
-            return '5.5';
+            return '8.0';
         }
     }
 
@@ -2827,7 +2827,7 @@ HTML
         public function db_version()
         {
             // WordPress currently requires this to be 5.0 or greater.
-            return '5.5';
+            return '8.0';
         }
 
         /**
